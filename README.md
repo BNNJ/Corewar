@@ -2,6 +2,10 @@
 
 A compiler and virtual machine for a custom implementation of [Core War](https://en.wikipedia.org/wiki/Core_War)
 
+42 project:
+[subject in english](https://github.com/BNNJ/corewar/blob/master/corewar.en.pdf)\
+[subject in french](https://github.com/BNNJ/corewar/blob/master/corewar.fr.pdf)\
+
 ## authors
 
 asm (compiler): amanuel (Aurelien Manuel)\
