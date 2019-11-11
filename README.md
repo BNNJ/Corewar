@@ -33,7 +33,7 @@ An initial process is created for each champion, with its own 16 registers and P
 The virtual machine then runs each process, which means it reads the byte pointed at by the PC, executes the instruction if possible, then advances the PC.
 
 Periodically, a check is made to see if the processes executed a live instruction. Those which have not are killed (regardless of which champion was declared alive).\ 
-The game stops when one or none process remains
+The game stops when no process remains, and the last player/champion to be declared alive wins.
 
 ## vm usage
 
