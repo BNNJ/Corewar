@@ -3,7 +3,7 @@
 A compiler and virtual machine for a custom implementation of [Core War](https://en.wikipedia.org/wiki/Core_War)
 
 42 project:\
-| [subject in english](https://github.com/BNNJ/corewar/blob/master/corewar.en.pdf) | [subject in french](https://github.com/BNNJ/corewar/blob/master/corewar.fr.pdf) |
+| [subject in english](https://github.com/BNNJ/corewar/blob/master/corewar.en.pdf) | [subject in french](https://github.com/BNNJ/corewar/blob/master/corewar.fr.pdf) | 
 
 Coded for UNIX systems, requires ncurses !\
 Tested on mac and linux.
@@ -29,7 +29,7 @@ output: .cor file
 ## compiler usage
 
 ```console 
-foo@bar:~$ ./asm \<champion.s\>
+foo@bar:~$ ./asm <champion.s>
 ```
 
 todo: figure out the options/possibilities of the compiler, as Aurelien provided no usage or doc.
@@ -49,7 +49,7 @@ To make it as simple as possible:
 ## vm usage
 
 ```console 
-foo@bar:~$ ./corewar [options] \<champion1.cor\> \<champion2.cor\> [additional champions]
+foo@bar:~$ ./corewar [options] <champion1.cor> <champion2.cor> [additional champions]
 ```
 
 |option|effect|
