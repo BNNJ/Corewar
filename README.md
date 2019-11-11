@@ -24,6 +24,8 @@ output: .cor file
 
 \> ./asm \<champion.s\>
 
+todo: figure out the options/possibilities of the compiler, as Aurelien provided no usage or doc.
+
 ## virtual machine
 
 To make it as simple as possible:\
