@@ -51,6 +51,11 @@ To make it as simple as possible:
 ```console 
 foo@bar:~$ ./corewar [options] <champion1.cor> <champion2.cor> [additional champions]
 ```
+example:
+```console 
+foo@bar:~$ ./corewar -vd 56 ressources/champs/champion1 ressources/champs/champion2
+```
+Runs a fight between champion1 and champion2, in viewer mode, and pauses after 56 cycles. 
 
 |option|effect|
 |-|-|
@@ -71,11 +76,6 @@ foo@bar:~$ ./corewar [options] <champion1.cor> <champion2.cor> [additional champ
 Note: For the viewer to work, the terminal window must be big enough to display it.\
 If it's not, an error message is sent to the standard output, and the program exits
 
-example:
-```console 
-foo@bar:~$ ./corewar -vd 56 ressources/champs/champion1 ressources/champs/champion2
-```
-Runs a fight between champion1 and champion2, in viewer mode, and pauses after 56 cycles. 
 
 ## TODO
 
