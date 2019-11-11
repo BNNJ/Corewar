@@ -6,6 +6,9 @@ A compiler and virtual machine for a custom implementation of [Core War](https:/
 [subject in english](https://github.com/BNNJ/corewar/blob/master/corewar.en.pdf)\
 [subject in french](https://github.com/BNNJ/corewar/blob/master/corewar.fr.pdf)
 
+Coded for UNIX systems, requires ncurses !\
+Tested on mac and linux.
+
 ## authors
 
 asm (compiler): amanuel (Aurelien Manuel)\
